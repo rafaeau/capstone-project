@@ -4,6 +4,19 @@
   color: white;
 }
 
+::-webkit-scrollbar {
+  height: 0px;
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #282c34;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
 .main {
 display: flex;
 flex-direction: column;

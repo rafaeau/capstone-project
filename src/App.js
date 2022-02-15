@@ -10,7 +10,7 @@ function App() {
       <div className="app">
         <MyNavbar />
         <div className="main">
-          <Tapestry/>
+          <Tapestry />
         </div>
         <MyFooter />
       </div>
