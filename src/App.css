@@ -1,6 +1,6 @@
 .app {
   text-align: center;
-  background-color: #282c34;
+  /* background-color: #282c34; */
   color: white;
 }
 
@@ -11,11 +11,18 @@ align-items: center;
 justify-content: center;
 }
 
+.tapestry-pic {
+  overflow: hidden;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
 footer {
-  position: absolute;
+  margin-top: 40px;
   left: 0;
   bottom: 0;
-  height: 60px;
+  height: 65px;
   width: 100%;
   color:#FFFFFF; 
   background: #282c34;
@@ -27,4 +34,5 @@ footer {
   margin-inline: 5px;
   color: white;
   margin-bottom: 5px;
+  font-size: larger;
 }
