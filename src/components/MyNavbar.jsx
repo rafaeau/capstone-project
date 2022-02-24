@@ -1,17 +1,17 @@
 import React from 'react';
-import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
-import { FaSearch } from 'react-icons/fa';
+import { Navbar, Form } from 'react-bootstrap';
 
 function MyNavbar() {
     return (
-        <Navbar className='navbar' variant="dark" fixed="top">
-            <Navbar.Brand href="#home" className="mr-auto">Actors DB</Navbar.Brand>
-            
-            <Form className="d-flex">
-                <FormControl type="text" placeholder="Search actor" className="mr-sm-2" />
-                <Button variant="outline-info"><FaSearch className='mt-n1'/></Button>
-            </Form>
-        </Navbar>
+        <>
+            <Navbar className='navbar' variant="dark" fixed="top">
+                <Navbar.Brand href="#home" className="mr-auto mt-1"><h4>Actors DB</h4></Navbar.Brand>
+                <Form className="d-flex">
+                    <input type="text" placeholder="🔍  Search actors" className="search-form mr-sm-2" />
+                </Form>
+            </Navbar>
+            <hr className='hr-top' />
+        </>
     )
 }
 

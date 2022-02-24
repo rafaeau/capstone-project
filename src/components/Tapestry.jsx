@@ -2,66 +2,60 @@ import React from 'react';
 
 function Tapestry() {
     return (
-        <div class="container mt-5">
-            <div class="row mt-5">
+        <div className="container mx-4">
+            
+            <div className="row mt-2 justify-content-around">
+                <div className="col-2 tapestry-pic-wrap py-2">
+                    <img src="https://place-hold.it/125" className="tapestry-pic" alt="actor-pic" />
+                </div>
+                <div className="col-2 tapestry-pic-wrap py-2">
+                    <img src="https://place-hold.it/125" className="tapestry-pic" alt="actor-pic" />
+                </div>
+                <div className="col-2 tapestry-pic-wrap py-2">
+                    <img src="https://place-hold.it/125" className="tapestry-pic" alt="actor-pic" />
+                </div>
+                <div className="col-2 tapestry-pic-wrap py-2">
+                    <img src="https://place-hold.it/125" className="tapestry-pic" alt="actor-pic" />
+                </div>
+                <div className="col-2 tapestry-pic-wrap py-2">
+                    <img src="https://place-hold.it/125" className="tapestry-pic" alt="actor-pic" />
+                </div>
+            </div>
 
-                <div class="col-2">
-                    <img src="https://picsum.photos/150" class="tapestry-pic" alt="actor-pic" />
+            <div className="row mt-4 justify-content-around">
+                <div className="col-2 tapestry-pic-wrap py-2">
+                    <img src="https://place-hold.it/125" className="tapestry-pic" alt="actor-pic" />
                 </div>
-                <div class="col-2">
-                    <img src="https://picsum.photos/150" class="tapestry-pic" alt="actor-pic" />
+                <div className="col-2 tapestry-pic-wrap py-2">
+                    <img src="https://place-hold.it/125" className="tapestry-pic" alt="actor-pic" />
                 </div>
-                <div class="col-2">
-                    <img src="https://picsum.photos/150" class="tapestry-pic" alt="actor-pic" />
+                <div className="col-2 tapestry-pic-wrap py-2">
+                    <img src="https://place-hold.it/125" className="tapestry-pic" alt="actor-pic" />
                 </div>
-                <div class="col-2">
-                    <img src="https://picsum.photos/150" class="tapestry-pic" alt="actor-pic" />
+                <div className="col-2 tapestry-pic-wrap py-2">
+                    <img src="https://place-hold.it/125" className="tapestry-pic" alt="actor-pic" />
                 </div>
-                <div class="col-2">
-                    <img src="https://picsum.photos/150" class="tapestry-pic" alt="actor-pic" />
+                <div className="col-2 tapestry-pic-wrap py-2">
+                    <img src="https://place-hold.it/125" className="tapestry-pic" alt="actor-pic" />
                 </div>
-                <div class="col-2">
-                    <img src="https://picsum.photos/150" class="tapestry-pic" alt="actor-pic" />
-                </div>
-                
-                <div class="col-2">
-                    <img src="https://picsum.photos/150" class="tapestry-pic" alt="actor-pic" />
-                </div>
-                <div class="col-2">
-                    <img src="https://picsum.photos/150" class="tapestry-pic" alt="actor-pic" />
-                </div>
-                <div class="col-2">
-                    <img src="https://picsum.photos/150" class="tapestry-pic" alt="actor-pic" />
-                </div>
-                <div class="col-2">
-                    <img src="https://picsum.photos/150" class="tapestry-pic" alt="actor-pic" />
-                </div>
-                <div class="col-2">
-                    <img src="https://picsum.photos/150" class="tapestry-pic" alt="actor-pic" />
-                </div>
-                <div class="col-2">
-                    <img src="https://picsum.photos/150" class="tapestry-pic" alt="actor-pic" />
-                </div>
+            </div>
 
-                <div class="col-2">
-                    <img src="https://picsum.photos/150" class="tapestry-pic" alt="actor-pic" />
+            <div className="row mt-4 justify-content-around">
+                <div className="col-2 tapestry-pic-wrap py-2">
+                    <img src="https://place-hold.it/125" className="tapestry-pic" alt="actor-pic" />
                 </div>
-                <div class="col-2">
-                    <img src="https://picsum.photos/150" class="tapestry-pic" alt="actor-pic" />
+                <div className="col-2 tapestry-pic-wrap py-2">
+                    <img src="https://place-hold.it/125" className="tapestry-pic" alt="actor-pic" />
                 </div>
-                <div class="col-2">
-                    <img src="https://picsum.photos/150" class="tapestry-pic" alt="actor-pic" />
+                <div className="col-2 tapestry-pic-wrap py-2">
+                    <img src="https://place-hold.it/125" className="tapestry-pic" alt="actor-pic" />
                 </div>
-                <div class="col-2">
-                    <img src="https://picsum.photos/150" class="tapestry-pic" alt="actor-pic" />
+                <div className="col-2 tapestry-pic-wrap py-2">
+                    <img src="https://place-hold.it/125" className="tapestry-pic" alt="actor-pic" />
                 </div>
-                <div class="col-2">
-                    <img src="https://picsum.photos/150" class="tapestry-pic" alt="actor-pic" />
+                <div className="col-2 tapestry-pic-wrap py-2">
+                    <img src="https://place-hold.it/125" className="tapestry-pic" alt="actor-pic" />
                 </div>
-                <div class="col-2">
-                    <img src="https://picsum.photos/150" class="tapestry-pic" alt="actor-pic" />
-                </div>
-
             </div>
         </div>
     )

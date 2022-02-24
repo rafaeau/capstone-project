@@ -1,0 +1,25 @@
+.tapestry {
+  width: calc(100vw - 50px);
+  left: 50px;
+}
+
+.tapestry-pic-wrap {
+  backdrop-filter: blur(10px);
+  background-color: rgba(129, 129, 129, 0.3);
+  width: 130px;
+  height: 130px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.tapestry-pic-wrap:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(139, 139, 139, 0.3);
+  }
+
+.tapestry-pic {
+  border-radius: 50%;
+}
+

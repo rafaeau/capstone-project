@@ -37,8 +37,49 @@ height: calc(100vh - 50px); */
 
 .navbar {
   background-color: transparent;
+  margin-left: 60px;
+  margin-right: 15px;
   height: 50px;
-  margin-inline: 30px;
+  left: 50px;
+}
+
+.sidebar {
+  width: 50px;
+  top: 0px;
+  left: 0;
+}
+
+.icons-side:hover {
+  transform: scale(1.2);
+}
+
+.search-form {
+  backdrop-filter: blur(2vh);
+  background-color: rgba(112, 112, 112, 0.3);
+  border-radius: 20vh;
+  width: 15vw;
+  height: 4vh;
+  font-weight: 400;
+  border: 1px solid rgb(119, 119, 119);
+  color: white;
+}
+
+.dropdown-menu {
+  backdrop-filter: blur(2vh);
+  background-color: rgba(61, 61, 61, 0.3);
+  border-radius: 30px;
+  font-weight: 400;
+  color: white;
+  border: 1px solid rgb(119, 119, 119);
+}
+
+.hr-top {
+  border: 1px solid rgb(51, 51, 51);
+  margin-top: 50px;
+}
+
+.hr {
+  border: 1px solid rgb(51, 51, 51);
 }
 
 footer {
