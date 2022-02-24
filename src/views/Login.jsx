@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../assets/logo192.png'
 import './Login.css';
+import { Link } from "react-router-dom";
 
 function Login() {
     return (
@@ -13,7 +14,9 @@ function Login() {
                 <form>
                     <input type="text" placeholder="Username or email" className="login-form mt-2" /> <br />
                     <input type="password" placeholder="Password" className="login-form my-3" /> <br />
-                    <button className="btn-form" onClick={'/'}>Sign In</button>
+                    <Link to="/">
+                        <button className="btn-form">Sign In</button>
+                    </Link>
                     <div id='login-checkbox'>
                         <div className='ml-2'>
                             <input type="checkbox" />

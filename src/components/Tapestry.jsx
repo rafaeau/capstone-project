@@ -2,7 +2,7 @@ import React from 'react';
 
 function Tapestry() {
     return (
-        <div className="container mx-4">
+        <div className="container mx-4 justify-content-around">
             
             <div className="row mt-2 justify-content-around">
                 <div className="col-2 tapestry-pic-wrap py-2">

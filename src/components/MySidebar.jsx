@@ -2,6 +2,7 @@ import React from 'react';
 import { AiFillHome, AiFillStar } from 'react-icons/ai';
 import { IoIosPaper, IoMdSettings } from 'react-icons/io'
 import { BsFillEnvelopeFill } from 'react-icons/bs'
+import { Link } from "react-router-dom";
 
 function MySidebar() {
     return (
@@ -15,7 +16,9 @@ function MySidebar() {
                 <hr className='hr' />
                 <h5 className='mb-4 icons-side'><BsFillEnvelopeFill /></h5>
                 <hr className='hr' />
-                <h4 className='mb-4 icons-side'><IoMdSettings /></h4>
+                <Link to="/login">
+                    <h4 className='mb-4 icons-side'><IoMdSettings /></h4>
+                </Link>
             </div>
         </>
     )
