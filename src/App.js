@@ -1,19 +1,20 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import MyNavbar from './components/MyNavbar';
-import MyFooter from './components/MyFooter';
-import Tapestry from './components/Tapestry';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Login from './views/Login';
+import Homepage from './views/Homepage';
 
 function App() {
   return (
     <>
-      <div className="app">
-        <MyNavbar />
-        <div className="main">
-          <Tapestry />
+      <Router>
+        <div className="app">
+          <Routes>
+            <Route exact path='/login' element={<Login />} />
+            <Route exact path='/' element={<Homepage />} />
+          </Routes>
         </div>
-        <MyFooter />
-      </div>
+      </Router>
     </>
   );
 }

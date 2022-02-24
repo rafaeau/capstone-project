@@ -1,0 +1,55 @@
+.logo {
+  height: 120px;
+  filter: invert(1%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%)
+    contrast(100%);
+  margin-top: 3%;
+}
+
+.login-form {
+  background-color: rgb(126, 126, 126);
+  border-radius: 20vh;
+  width: 25vw;
+  height: 6vh;
+  margin-inline: auto;
+  font-weight: 400;
+  border: none;
+}
+
+input {
+  padding-left: 15px;
+}
+
+input::placeholder {
+  color: rgb(190, 190, 190);
+}
+
+.btn-form {
+  background-color: #ff683a;
+  border-radius: 20vh;
+  width: 25vw;
+  height: 6vh;
+  border: none;
+  margin-inline: auto;
+  color: white;
+  font-weight: 800;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+.btn-form:hover {
+  opacity: 1;
+}
+
+#login-checkbox {
+  margin-inline: auto;
+  width: 25vw;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: small;
+  color: #616161;
+}
+
+/* input[type="checkbox"] {
+    margin-top: 10px;
+  } */

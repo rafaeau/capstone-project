@@ -1,8 +1,18 @@
+body {
+  background: linear-gradient(90deg, #262931 85%, #ff683a 85%);
+}
+
 .app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  /* background-color: #282c34; */
   color: white;
 }
+
+/* bottom: 0;
+height: calc(100vh - 50px); */
 
 ::-webkit-scrollbar {
   height: 0px;
@@ -17,35 +27,34 @@
   background: #888;
 }
 
-.main {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+.wrap {
+  backdrop-filter: blur(2vh);
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 85vw;
+  height: 85vh;
+  border-radius: 3vh;
 }
 
-.tapestry-pic {
-  overflow: hidden;
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
+.navbar {
+  background-color: transparent;
+  height: 50px;
+  margin-inline: 30px;
 }
 
 footer {
   margin-top: 40px;
-  left: 0;
   bottom: 0;
   height: 65px;
   width: 100%;
-  color:#FFFFFF; 
-  background: #282c34;
+  color: #000000;
+  background: rgba(148, 187, 233, 1);
   text-align: center;
   vertical-align: middle;
-  }
+}
 
 .footer-icons {
   margin-inline: 5px;
-  color: white;
+  color: rgb(0, 0, 0);
   margin-bottom: 5px;
   font-size: larger;
 }
