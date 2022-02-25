@@ -17,14 +17,17 @@ height: calc(100vh - 50px); */
 ::-webkit-scrollbar {
   height: 0px;
   width: 10px;
+  border-radius: 5px;
 }
 
 ::-webkit-scrollbar-track {
   background: #282c34;
+  border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
   background: #888;
+  border-radius: 5px;
 }
 
 .wrap {
@@ -59,11 +62,12 @@ height: calc(100vh - 50px); */
 }
 
 .icons-side {
-  color: white;
+  color: rgb(168, 168, 168);
 }
 
 .icons-side:hover {
   transform: scale(1.2);
+  color:white;
 }
 
 .search-form {

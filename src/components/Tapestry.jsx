@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 function Tapestry() {
     return (
         <div className="container mx-4 justify-content-around">
-            
+
             <div className="row mt-2 justify-content-around">
                 <div className="col-2 tapestry-pic-wrap py-2">
                     <img src="https://place-hold.it/125" className="tapestry-pic" alt="actor-pic" />
