@@ -53,6 +53,7 @@ height: calc(100vh - 50px); */
 .page-title {
   margin-left: 33px;
   margin-top: 5px;
+  color: #b6b6b6;
 }
 
 .sidebar {

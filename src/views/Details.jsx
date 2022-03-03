@@ -3,6 +3,7 @@ import MyNavbar from '../components/MyNavbar';
 import MySidebar from '../components/MySidebar';
 import './Details.css';
 import { Carousel } from 'react-bootstrap';
+import { AiOutlineStar } from 'react-icons/ai';
 
 function Details() {
     return (
@@ -16,13 +17,13 @@ function Details() {
                         <div className='row d-flex'>
 
                             <div className='col-2 first-col'>
-                                <img src="https://place-hold.it/125" className="tapestry-pic mt-3 mb-2" alt="actor-pic" />
+                                <img src="https://place-hold.it/150" className="tapestry-pic mt-3 mb-2" alt="actor-pic" />
                                 <h4>Actor's name</h4>
                                 <p className='par mt-3'>
                                     <b>Age:</b> 26 (21.06.1993)<br />
                                     <b>Height:</b> 174cm<br />
                                     <b>Hair colour:</b>  Dark brown<br />
-                                    <hr className='mt-n1' />
+                                    <br/>
                                     <b>Eye colour:</b> Dark brown<br />
                                     <b>Nationality:</b> Dutch<br />
                                     <b>Languages:</b> Dutch (native),
@@ -32,6 +33,7 @@ function Details() {
                             </div>
 
                             <div className='col-9 second-col'>
+                                <h3 className='star-fav'><AiOutlineStar /></h3>
                                 <h4 className='mt-3'>Credits</h4>
                                 <p className='par'>
                                     <b>Film:</b><br />
@@ -55,6 +57,7 @@ function Details() {
                                     Football<br />
                                     Parkour<br />
                                 </p>
+                                <button className="btn-msg ml-auto d-block">Message</button>
                             </div>
 
                         </div>

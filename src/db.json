@@ -1,0 +1,37 @@
+{
+    "actors": [
+        {
+            "_id": 0,
+            "name": "Julia Montero",
+            "age": "26 (21.06.1993)",
+            "height": "174cm",
+            "hair colour":  "Dark brown",
+            "eye colour": "Dark brown",
+            "nationality": "Dutch",
+            "languages": "Dutch (native), English (fluent), German (proficient), Indonesian (basic)",
+            "mailto": "juliamontero@gmail.com",
+            "film": [
+                "Alfgerour Baldursdottir (Director). (2019). A Snow Globe's Secret. dBs Berlin.",
+                "Clint Frift (Director). (2019). WLDYDI?. dBs Berlin.",
+                "Emma Giuliani (Director). (2019). Sharktooth and Thumbnail. dBs Berlin.",
+                "Helena Marinho (Director). (2020). Knock Knock. dBs Berlin.",
+                "Jen Frisch-Wang (Director). (2020). Memoriam. dBs Berlin.",
+                "Li Wallis (Director). (2019). Parklife. dBs Berlin.",
+                "Petter Soderberg (Director). (2019). Henny's Ladder. dBs Berlin.",
+                "Samantha Decker (Director). (2019). Natural As Fuck. dBs Berlin.",
+                "Sara Russo (Director). (2019). Passing Me By . dBs Berlin.",
+                "Zac Foote (Director). (2019). 1 or 2 . dBs Berlin."
+            ],
+            "theatre": [
+                "Instant Theatre Berlin, 2019, Sam Cole (Director)",
+                "Skungpoomery, 2020, Adam Donald (Director)",
+                "Can't Pay Won't Pay, 2018, Samuel Clemens (Director)"
+            ],
+            "skills": [
+                "Volleyball",
+                "Jazz ballet",
+                "Horse riding"
+            ]
+        }
+    ]
+}
