@@ -14,7 +14,7 @@ function Login() {
                 <form>
                     <input type="text" placeholder="Username or email" className="login-form mt-2" /> <br />
                     <input type="password" placeholder="Password" className="login-form my-3" /> <br />
-                    <Link to="/">
+                    <Link to="/homepage">
                         <button className="btn-form">Sign In</button>
                     </Link>
                     <div id='login-checkbox'>

@@ -8,13 +8,21 @@ function MySidebar() {
     return (
         <>
             <div className='sidebar pl-3'>
-                <h4 className='mb-4 icons-side'><AiFillHome /></h4>
+                <Link to="/homepage">
+                    <h4 className='mb-4 icons-side'><AiFillHome /></h4>
+                </Link>
                 <hr className='hr' />
-                <h3 className='mb-4 icons-side'><AiFillStar /></h3>
+                <Link to="/favorites">
+                    <h3 className='mb-4 icons-side'><AiFillStar /></h3>
+                </Link>
                 <hr className='hr' />
-                <h4 className='mb-4 icons-side'><IoIosPaper /></h4>
+                <Link to="/about-us">
+                    <h4 className='mb-4 icons-side'><IoIosPaper /></h4>
+                </Link>
                 <hr className='hr' />
-                <h5 className='mb-4 icons-side'><BsFillEnvelopeFill /></h5>
+                <Link to="/contact-us">
+                    <h5 className='mb-4 icons-side'><BsFillEnvelopeFill /></h5>
+                </Link>
                 <hr className='hr' />
                 <Link to="/login">
                     <h4 className='mb-4 icons-side'><IoMdSettings /></h4>
